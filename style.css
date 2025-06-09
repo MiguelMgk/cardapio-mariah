@@ -75,3 +75,19 @@ footer {
   padding: 10px;
   background: #eee;
 }
+.btn-pagamento {
+  background-color: #009EE3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pagamento:hover {
+  background-color: #007bb5;
+}
+
