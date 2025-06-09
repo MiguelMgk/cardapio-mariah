@@ -1,93 +1,135 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #fff8f0;
-  margin: 0;
-  padding: 0;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mariah Oriental</title>
+  <style>
+    /* Seu CSS que você enviou */
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
 
-header {
-  background-color: #b71c1c;
-  color: white;
-  padding: 25px 20px;
-  text-align: center;
-}
+    header {
+      background-color: #b71c1c;
+      color: white;
+      padding: 25px 20px;
+      text-align: center;
+    }
 
-header a {
-  color: #ffe;
-  text-decoration: underline;
-}
+    header a {
+      color: #fff;
+      text-decoration: underline;
+    }
 
-.promo {
-  background: #ffe4e1;
-  padding: 20px;
-  text-align: center;
-}
+    .promo {
+      background: #ffe4e1;
+      padding: 20px;
+      text-align: center;
+    }
 
-.promo a {
-  display: inline-block;
-  margin-top: 10px;
-  background: #25d366;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 5px;
-  text-decoration: none;
-}
+    .promo a {
+      display: inline-block;
+      margin-top: 10px;
+      background: #25d366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
 
-.menu {
-  padding: 20px;
-}
+    .menu {
+      padding: 20px;
+    }
 
-.menu h2 {
-  margin-bottom: 10px;
-}
+    .menu h2 {
+      margin-bottom: 10px;
+    }
 
-.item {
-  background: white;
-  border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 15px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+    .item {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
 
-.item h3 {
-  margin: 0 0 5px;
-}
+    .item h3 {
+      margin: 0 0 5px;
+    }
 
-.item span {
-  font-weight: bold;
-  display: block;
-  margin-top: 5px;
-}
+    .item span {
+      font-weight: bold;
+      display: block;
+      margin-top: 5px;
+    }
 
-.item a {
-  display: inline-block;
-  margin-top: 10px;
-  background: #25d366;
-  color: white;
-  padding: 8px 12px;
-  border-radius: 5px;
-  text-decoration: none;
-}
+    .item a {
+      display: inline-block;
+      margin-top: 10px;
+      background: #25d366;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
 
-footer {
-  text-align: center;
-  padding: 10px;
-  background: #eee;
-}
-.btn-pagamento {
-  background-color: #009EE3;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
-}
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #eee;
+    }
 
-.btn-pagamento:hover {
-  background-color: #007bb5;
-}
+    .btn-pagamento {
+      background-color: #009EE3;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
 
+    .btn-pagamento:hover {
+      background-color: #007bb5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mariah Oriental</h1>
+    <p>Siga no Instagram: <a href="https://instagram.com/mariahoriental" target="_blank">@mariahoriental</a></p>
+  </header>
+
+  <section class="promo">
+    <h2>Promoção Dia dos Namorados</h2>
+    <p>Delivery para Bangu, Campo Grande e Recreio</p>
+    <a href="https://wa.me/5511999999999" target="_blank">Peça no WhatsApp</a>
+  </section>
+
+  <section class="menu">
+    <h2>Cardápio</h2>
+
+    <div class="item">
+      <h3>Yakisoba Tradicional</h3>
+      <span>R$ 35,00</span>
+      <a href="https://wa.me/5511999999999?text=Quero%20um%20Yakisoba%20Tradicional" target="_blank">Pedir no WhatsApp</a>
+      <br/>
+      <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=SEU_PREF_ID_AQUI" target="_blank" class="btn-pagamento">Comprar com Mercado Pago</a>
+    </div>
+
+    <!-- Pode repetir outros itens aqui -->
+
+  </section>
+
+  <footer>
+    <p>© 2025 Mariah Oriental</p>
+  </footer>
+</body>
+</html>
